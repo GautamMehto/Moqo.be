@@ -1,0 +1,139 @@
+@media screen and (max-width:400px) {
+    #loader h1 {
+        font-size: 5vw;
+    }
+    #loader div {
+        height: 1vh;
+    }
+
+    #page1,
+    #page2,
+    #page3,
+    #page4,
+    #page6 {
+        padding: 0vh 20px;
+    }
+
+    .main nav {
+        padding: 2vh 10px;
+    }
+
+    .main nav div h3 {
+        font-size: .8rem;
+    }
+
+    .main nav div div,
+    .main nav div i {
+        font-size: .8rem;
+    }
+
+    #menu #items {
+        height: 78vh;
+        margin-left: 5vh;
+    }
+
+    #menu h2 {
+        font-size: 6vw;
+    }
+
+    #page1 h1 {
+        font-size: 80vw;
+        font-stretch: 128%;
+    }
+
+    #page3 div {
+        width: 50%;
+        line-height: 4vh;
+        font-size: 7vw;
+    }
+
+    #page3 div p {
+        line-height: 1vh;
+    }
+
+    #page4 .mouse {
+        display: none;
+        visibility: hidden;
+    }
+
+    #page4 {
+        border-top: none;
+        gap: 0px;
+    }
+
+    #page4 #img1,
+    #page4 #img2,
+    #page4 #img3,
+    #page4 .text {
+        width: 90%;
+    }
+
+    #page4 .text {
+        font-size: 3vw;
+    }
+
+    #page5 h3 {
+        font-size: 5vw;
+        margin-top: 10vh;
+    }
+
+    #page5 div {
+        margin: 10vh 0vh;
+        width: 77%;
+        font-size: 12.5vw;
+        line-height: 7vh;
+        position: relative;
+    }
+
+    #page5 .box {
+        display: flex;
+        align-items: flex-end;
+        margin: 0;
+    }
+
+    #page5 div p {
+        line-height: 1.5vh;
+        bottom: 0px;
+    }
+
+    #page5 div p a {
+        margin-top: 2vh;
+    }
+
+    #page5 #video-container {
+        height: 40vh;
+        margin: 10vh 0vh 0vh 0vh;
+    }
+
+    #page6 div {
+        width: 100%;
+        gap: 10px;
+        margin: 10vh 0vh 3vh;
+    }
+
+    #page6 #text {
+        margin: 10vh 0vh 0vh 0vh;
+        font-size: 15.5vw;
+        line-height: 9vh;
+    }
+
+    #page6 div p {
+        line-height: 2vh;
+        font-size: 2vw;
+    }
+
+    #page6 #images {
+        margin: 3vh;
+    }
+
+    #page6 #images .box {
+        width: 50%;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #page6 #images .box p {
+        margin-top: 2vh;
+        font-size: 2.5vw;
+    }
+}
